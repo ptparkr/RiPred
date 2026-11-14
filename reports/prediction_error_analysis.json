@@ -1,0 +1,180 @@
+{
+  "overall": {
+    "overall_mae": 452.36,
+    "overall_rmse": 603.38,
+    "overall_mean_bias": 176.18,
+    "median_abs_error": 348.03
+  },
+  "by_state": {
+    "uttarakhand": {
+      "records": 16,
+      "mean_actual": 1740.9,
+      "mean_pred": 1617.14,
+      "mean_bias": 123.76,
+      "mae": 201.29,
+      "rmse": 266.59
+    },
+    "haryana": {
+      "records": 12,
+      "mean_actual": 2991.08,
+      "mean_pred": 2903.78,
+      "mean_bias": 87.29,
+      "mae": 263.97,
+      "rmse": 344.37
+    },
+    "uttar pradesh": {
+      "records": 84,
+      "mean_actual": 2217.88,
+      "mean_pred": 2231.89,
+      "mean_bias": -14.01,
+      "mae": 268.92,
+      "rmse": 340.57
+    },
+    "telangana": {
+      "records": 18,
+      "mean_actual": 2942.18,
+      "mean_pred": 3012.28,
+      "mean_bias": -70.09,
+      "mae": 305.13,
+      "rmse": 369.05
+    },
+    "rajasthan": {
+      "records": 30,
+      "mean_actual": 1801.12,
+      "mean_pred": 1823.45,
+      "mean_bias": -22.33,
+      "mae": 340.25,
+      "rmse": 396.25
+    },
+    "himachal pradesh": {
+      "records": 18,
+      "mean_actual": 1646.64,
+      "mean_pred": 1578.6,
+      "mean_bias": 68.04,
+      "mae": 352.95,
+      "rmse": 438.74
+    },
+    "andhra pradesh": {
+      "records": 18,
+      "mean_actual": 3299.25,
+      "mean_pred": 3043.94,
+      "mean_bias": 255.31,
+      "mae": 362.75,
+      "rmse": 458.41
+    },
+    "kerala": {
+      "records": 18,
+      "mean_actual": 2727.02,
+      "mean_pred": 2379.38,
+      "mean_bias": 347.64,
+      "mae": 368.59,
+      "rmse": 411.54
+    },
+    "assam": {
+      "records": 15,
+      "mean_actual": 2002.76,
+      "mean_pred": 1633.58,
+      "mean_bias": 369.18,
+      "mae": 369.18,
+      "rmse": 406.39
+    },
+    "karnataka": {
+      "records": 26,
+      "mean_actual": 2651.97,
+      "mean_pred": 2606.7,
+      "mean_bias": 45.26,
+      "mae": 385.23,
+      "rmse": 509.09
+    },
+    "punjab": {
+      "records": 20,
+      "mean_actual": 3840.64,
+      "mean_pred": 3740.68,
+      "mean_bias": 99.96,
+      "mae": 399.48,
+      "rmse": 474.45
+    },
+    "west bengal": {
+      "records": 20,
+      "mean_actual": 2732.63,
+      "mean_pred": 2364.45,
+      "mean_bias": 368.18,
+      "mae": 407.12,
+      "rmse": 476.76
+    },
+    "chhattisgarh": {
+      "records": 10,
+      "mean_actual": 1507.14,
+      "mean_pred": 1651.41,
+      "mean_bias": -144.27,
+      "mae": 431.74,
+      "rmse": 505.12
+    },
+    "maharashtra": {
+      "records": 31,
+      "mean_actual": 1257.82,
+      "mean_pred": 1563.72,
+      "mean_bias": -305.9,
+      "mae": 527.6,
+      "rmse": 663.82
+    },
+    "gujarat": {
+      "records": 16,
+      "mean_actual": 2125.12,
+      "mean_pred": 1738.42,
+      "mean_bias": 386.69,
+      "mae": 628.39,
+      "rmse": 694.36
+    },
+    "jharkhand": {
+      "records": 8,
+      "mean_actual": 1507.91,
+      "mean_pred": 1584.06,
+      "mean_bias": -76.15,
+      "mae": 674.76,
+      "rmse": 731.38
+    },
+    "madhya pradesh": {
+      "records": 56,
+      "mean_actual": 1664.27,
+      "mean_pred": 1180.61,
+      "mean_bias": 483.66,
+      "mae": 695.8,
+      "rmse": 895.91
+    },
+    "bihar": {
+      "records": 16,
+      "mean_actual": 2269.46,
+      "mean_pred": 1642.29,
+      "mean_bias": 627.17,
+      "mae": 787.95,
+      "rmse": 934.93
+    },
+    "tamil nadu": {
+      "records": 16,
+      "mean_actual": 4296.4,
+      "mean_pred": 3103.87,
+      "mean_bias": 1192.52,
+      "mae": 1192.52,
+      "rmse": 1321.36
+    }
+  },
+  "by_year": {
+    "2014": {
+      "records": 225,
+      "mean_actual": 2338.33,
+      "mean_pred": 2074.63,
+      "mean_bias": 263.7,
+      "mae": 451.97,
+      "rmse": 606.11
+    },
+    "2015": {
+      "records": 223,
+      "mean_actual": 2232.61,
+      "mean_pred": 2144.74,
+      "mean_bias": 87.87,
+      "mae": 452.76,
+      "rmse": 600.61
+    }
+  }
+}

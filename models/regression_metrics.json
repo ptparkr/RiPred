@@ -1,0 +1,117 @@
+{
+  "target": "rice_yield_kgha",
+  "unit": "kg/ha",
+  "best_model": "gradient_boosting",
+  "models_evaluated": [
+    "baseline_mean",
+    "ridge_regression",
+    "decision_tree",
+    "random_forest",
+    "gradient_boosting",
+    "xgboost"
+  ],
+  "results": {
+    "baseline_mean": {
+      "train": {
+        "MAE": 800.5,
+        "RMSE": 978.32,
+        "R2": 0.0
+      },
+      "validation": {
+        "MAE": 798.73,
+        "RMSE": 1010.42,
+        "R2": -0.1335
+      },
+      "test": {
+        "MAE": 823.71,
+        "RMSE": 1051.54,
+        "R2": -0.1416
+      }
+    },
+    "ridge_regression": {
+      "train": {
+        "MAE": 349.05,
+        "RMSE": 457.3,
+        "R2": 0.7815
+      },
+      "validation": {
+        "MAE": 469.68,
+        "RMSE": 634.07,
+        "R2": 0.5536
+      },
+      "test": {
+        "MAE": 474.49,
+        "RMSE": 643.18,
+        "R2": 0.5729
+      }
+    },
+    "decision_tree": {
+      "train": {
+        "MAE": 290.35,
+        "RMSE": 392.58,
+        "R2": 0.839
+      },
+      "validation": {
+        "MAE": 494.95,
+        "RMSE": 681.69,
+        "R2": 0.4841
+      },
+      "test": {
+        "MAE": 526.15,
+        "RMSE": 701.29,
+        "R2": 0.4923
+      }
+    },
+    "random_forest": {
+      "train": {
+        "MAE": 195.64,
+        "RMSE": 275.48,
+        "R2": 0.9207
+      },
+      "validation": {
+        "MAE": 429.94,
+        "RMSE": 587.07,
+        "R2": 0.6174
+      },
+      "test": {
+        "MAE": 458.15,
+        "RMSE": 616.47,
+        "R2": 0.6077
+      }
+    },
+    "gradient_boosting": {
+      "train": {
+        "MAE": 210.58,
+        "RMSE": 277.41,
+        "R2": 0.9196
+      },
+      "validation": {
+        "MAE": 420.79,
+        "RMSE": 570.85,
+        "R2": 0.6382
+      },
+      "test": {
+        "MAE": 452.36,
+        "RMSE": 603.38,
+        "R2": 0.6241
+      }
+    },
+    "xgboost": {
+      "train": {
+        "MAE": 215.14,
+        "RMSE": 288.32,
+        "R2": 0.9131
+      },
+      "validation": {
+        "MAE": 421.48,
+        "RMSE": 569.34,
+        "R2": 0.6401
+      },
+      "test": {
+        "MAE": 456.79,
+        "RMSE": 607.72,
+        "R2": 0.6187
+      }
+    }
+  }
+}

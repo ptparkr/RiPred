@@ -1,0 +1,413 @@
+{
+  "n_clusters": 4,
+  "feature_count": 57,
+  "features": [
+    "irrig_canal_area_1000ha",
+    "irrig_tank_area_1000ha",
+    "irrig_tubewell_area_1000ha",
+    "irrig_other_area_1000ha",
+    "n_per_ha_nca",
+    "p_per_ha_nca",
+    "k_per_ha_nca",
+    "lgp_days",
+    "soil_loamy_alfisols",
+    "soil_ustalf_ustolls",
+    "soil_vertisols",
+    "soil_vertic_soils",
+    "soil_inceptisols",
+    "soil_orthids",
+    "soil_sandy_alfisols",
+    "soil_udupts_udalfs",
+    "soil_pssaments",
+    "soil_udolls_udalfs",
+    "rain_annual_mm",
+    "rain_pre_monsoon_mm",
+    "rain_monsoon_mm",
+    "rain_post_monsoon_mm",
+    "rain_winter_mm",
+    "rain_diff_annual_mm",
+    "rain_diff_winter_mm",
+    "rain_diff_pre_monsoon_mm",
+    "rain_diff_monsoon_mm",
+    "rain_diff_post_monsoon_mm",
+    "tmax_winter",
+    "tmax_pre_monsoon",
+    "tmax_monsoon",
+    "tmax_post_monsoon",
+    "tmin_winter",
+    "tmin_pre_monsoon",
+    "tmin_monsoon",
+    "tmin_post_monsoon",
+    "wd_jan_mm",
+    "wd_feb_mm",
+    "wd_mar_mm",
+    "wd_apr_mm",
+    "wd_may_mm",
+    "wd_jun_mm",
+    "wd_jul_mm",
+    "wd_aug_mm",
+    "wd_oct_mm",
+    "wd_nov_mm",
+    "wd_dec_mm",
+    "aet_winter",
+    "aet_pre_monsoon",
+    "aet_monsoon",
+    "aet_post_monsoon",
+    "aet_diff_winter",
+    "aet_diff_pre_monsoon",
+    "aet_diff_monsoon",
+    "aet_diff_post_monsoon",
+    "water_stress_score",
+    "stress_group"
+  ],
+  "pca_explained_variance_ratio": [
+    0.2257,
+    0.1636,
+    0.0856
+  ],
+  "profiles": {
+    "0": {
+      "name": "Cluster 0: Moderate Rainfall / Balanced Agro-Climatic Zone",
+      "count": 1068,
+      "percentage": 42.69,
+      "top_states": {
+        "madhya pradesh": 319,
+        "maharashtra": 179,
+        "rajasthan": 113
+      },
+      "stats": {
+        "rain_annual_mm": {
+          "mean": 919.31,
+          "median": 832.0,
+          "p25": 646.98,
+          "p75": 1080.97
+        },
+        "rain_monsoon_mm": {
+          "mean": 801.93,
+          "median": 725.55,
+          "p25": 525.73,
+          "p75": 963.88
+        },
+        "water_stress_score": {
+          "mean": 144.48,
+          "median": 143.5,
+          "p25": 122.49,
+          "p75": 168.39
+        },
+        "lgp_days": {
+          "mean": 186.58,
+          "median": 182.0,
+          "p25": 171.0,
+          "p75": 201.0
+        },
+        "tmax_monsoon": {
+          "mean": 30.05,
+          "median": 30.16,
+          "p25": 29.17,
+          "p75": 31.14
+        },
+        "tmin_winter": {
+          "mean": 13.03,
+          "median": 12.74,
+          "p25": 10.57,
+          "p75": 15.55
+        },
+        "n_per_ha_nca": {
+          "mean": 76.53,
+          "median": 61.16,
+          "p25": 37.03,
+          "p75": 96.24
+        },
+        "irrig_canal_area_1000ha": {
+          "mean": 38.15,
+          "median": 11.42,
+          "p25": 1.05,
+          "p75": 46.8
+        },
+        "irrig_tubewell_area_1000ha": {
+          "mean": 44.39,
+          "median": 29.48,
+          "p25": 1.33,
+          "p75": 70.96
+        },
+        "soil_vertisols": {
+          "mean": 11.3,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 15.0
+        },
+        "soil_inceptisols": {
+          "mean": 0.91,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "soil_orthids": {
+          "mean": 3.3,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "yield_actual_mean": 1494.0,
+        "yield_actual_median": 1222.3
+      }
+    },
+    "1": {
+      "name": "Cluster 1: Moderate Rainfall / Balanced Agro-Climatic Zone",
+      "count": 149,
+      "percentage": 5.96,
+      "top_states": {
+        "himachal pradesh": 93,
+        "uttarakhand": 56
+      },
+      "stats": {
+        "rain_annual_mm": {
+          "mean": 1208.97,
+          "median": 1164.5,
+          "p25": 884.7,
+          "p75": 1476.0
+        },
+        "rain_monsoon_mm": {
+          "mean": 912.63,
+          "median": 842.6,
+          "p25": 609.7,
+          "p75": 1200.8
+        },
+        "water_stress_score": {
+          "mean": 50.65,
+          "median": 43.91,
+          "p25": 21.17,
+          "p75": 71.68
+        },
+        "lgp_days": {
+          "mean": 221.97,
+          "median": 189.0,
+          "p25": 189.0,
+          "p75": 277.0
+        },
+        "tmax_monsoon": {
+          "mean": 20.7,
+          "median": 22.16,
+          "p25": 15.96,
+          "p75": 25.73
+        },
+        "tmin_winter": {
+          "mean": -2.15,
+          "median": 1.23,
+          "p25": -9.13,
+          "p75": 5.03
+        },
+        "n_per_ha_nca": {
+          "mean": 33.93,
+          "median": 38.29,
+          "p25": 6.06,
+          "p75": 54.17
+        },
+        "irrig_canal_area_1000ha": {
+          "mean": 2.02,
+          "median": 0.01,
+          "p25": 0.0,
+          "p75": 2.88
+        },
+        "irrig_tubewell_area_1000ha": {
+          "mean": 1.36,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 1.45
+        },
+        "soil_vertisols": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "soil_inceptisols": {
+          "mean": 5.91,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "soil_orthids": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "yield_actual_mean": 1428.5,
+        "yield_actual_median": 1359.0
+      }
+    },
+    "2": {
+      "name": "Cluster 2: Semi-Arid / High Moisture Stress Zone",
+      "count": 769,
+      "percentage": 30.74,
+      "top_states": {
+        "uttar pradesh": 419,
+        "punjab": 120,
+        "bihar": 82
+      },
+      "stats": {
+        "rain_annual_mm": {
+          "mean": 641.77,
+          "median": 600.3,
+          "p25": 383.0,
+          "p75": 844.3
+        },
+        "rain_monsoon_mm": {
+          "mean": 488.42,
+          "median": 450.5,
+          "p25": 250.7,
+          "p75": 681.0
+        },
+        "water_stress_score": {
+          "mean": 152.9,
+          "median": 157.58,
+          "p25": 130.59,
+          "p75": 176.46
+        },
+        "lgp_days": {
+          "mean": 188.91,
+          "median": 210.0,
+          "p25": 180.0,
+          "p75": 224.0
+        },
+        "tmax_monsoon": {
+          "mean": 32.29,
+          "median": 32.27,
+          "p25": 31.7,
+          "p75": 32.83
+        },
+        "tmin_winter": {
+          "mean": 8.31,
+          "median": 8.53,
+          "p25": 6.85,
+          "p75": 10.0
+        },
+        "n_per_ha_nca": {
+          "mean": 186.65,
+          "median": 180.36,
+          "p25": 123.51,
+          "p75": 247.46
+        },
+        "irrig_canal_area_1000ha": {
+          "mean": 87.78,
+          "median": 43.56,
+          "p25": 17.0,
+          "p75": 82.55
+        },
+        "irrig_tubewell_area_1000ha": {
+          "mean": 224.65,
+          "median": 219.33,
+          "p25": 153.87,
+          "p75": 302.0
+        },
+        "soil_vertisols": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "soil_inceptisols": {
+          "mean": 86.55,
+          "median": 100.0,
+          "p25": 100.0,
+          "p75": 100.0
+        },
+        "soil_orthids": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "yield_actual_mean": 2265.2,
+        "yield_actual_median": 2163.9
+      }
+    },
+    "3": {
+      "name": "Cluster 3: Humid / High Monsoon Rainfall Zone",
+      "count": 516,
+      "percentage": 20.62,
+      "top_states": {
+        "kerala": 108,
+        "west bengal": 108,
+        "assam": 88
+      },
+      "stats": {
+        "rain_annual_mm": {
+          "mean": 1917.95,
+          "median": 1644.75,
+          "p25": 1159.0,
+          "p75": 2672.93
+        },
+        "rain_monsoon_mm": {
+          "mean": 1268.67,
+          "median": 1092.4,
+          "p25": 646.08,
+          "p75": 1769.57
+        },
+        "water_stress_score": {
+          "mean": 47.61,
+          "median": 43.24,
+          "p25": 8.96,
+          "p75": 78.46
+        },
+        "lgp_days": {
+          "mean": 205.7,
+          "median": 189.0,
+          "p25": 189.0,
+          "p75": 248.0
+        },
+        "tmax_monsoon": {
+          "mean": 29.82,
+          "median": 30.47,
+          "p25": 27.82,
+          "p75": 31.71
+        },
+        "tmin_winter": {
+          "mean": 16.04,
+          "median": 16.88,
+          "p25": 11.42,
+          "p75": 20.59
+        },
+        "n_per_ha_nca": {
+          "mean": 92.64,
+          "median": 71.25,
+          "p25": 39.54,
+          "p75": 113.67
+        },
+        "irrig_canal_area_1000ha": {
+          "mean": 48.46,
+          "median": 10.5,
+          "p25": 1.53,
+          "p75": 52.47
+        },
+        "irrig_tubewell_area_1000ha": {
+          "mean": 19.63,
+          "median": 6.23,
+          "p25": 0.51,
+          "p75": 23.7
+        },
+        "soil_vertisols": {
+          "mean": 0.45,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "soil_inceptisols": {
+          "mean": 10.64,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "soil_orthids": {
+          "mean": 17.86,
+          "median": 0.0,
+          "p25": 0.0,
+          "p75": 20.0
+        },
+        "yield_actual_mean": 2407.0,
+        "yield_actual_median": 2341.7
+      }
+    }
+  }
+}

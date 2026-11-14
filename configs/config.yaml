@@ -1,0 +1,40 @@
+project:
+  name: "RiPred"
+  description: "Rice Intelligence & Yield Prediction Engine"
+  version: "1.0.0"
+
+paths:
+  raw_data: "data/raw/rice.csv"
+  processed_dir: "data/processed"
+  models_dir: "models"
+  reports_dir: "reports"
+  figures_dir: "reports/figures"
+
+splits:
+  train_years: [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]
+  val_years: [2012, 2013]
+  test_years: [2014, 2015]
+
+target:
+  name: "rice_yield_kgha"
+  unit: "kg/ha"
+
+leakage_exclusions:
+  - "rice_production_1000tons"
+
+risk_percentiles:
+  low_threshold: 0.3333333333333333
+  high_threshold: 0.6666666666666666
+
+clustering:
+  n_clusters: 4
+  random_state: 42
+  algorithms: ["kmeans", "hierarchical", "dbscan"]
+
+regression:
+  random_state: 42
+  models: ["baseline", "ridge", "decision_tree", "random_forest", "gradient_boosting", "xgboost"]
+
+classification:
+  random_state: 42
+  models: ["logistic_regression", "random_forest", "gradient_boosting"]

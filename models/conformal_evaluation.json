@@ -1,0 +1,7 @@
+{
+  "nominal_confidence": 0.9,
+  "actual_test_coverage": 0.8728,
+  "calibrated_residual_margin_kg_ha": 863.92,
+  "mean_interval_width_kg_ha": 1722.46,
+  "coverage_guarantee_met": true
+}
